@@ -17,6 +17,7 @@ export default function OrderContents({order} : OrderContentsProps) {
                         item =>(
                             <div key={item.id} className="flex justify-between">
                                 <p>{item.name}</p>
+                                <p>${item.price}</p>
                             </div>
                         )
                     )
